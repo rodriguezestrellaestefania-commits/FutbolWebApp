@@ -14,7 +14,7 @@ ViewType=101
 Top=26
 Left=0
 Bottom=603
-Right=1312
+Right=1314
 TabIndex=0
 TabGroup=0
 [Window1]
@@ -23,7 +23,7 @@ ViewType=1
 Top=26
 Left=0
 Bottom=603
-Right=1312
+Right=1314
 CursorLine=0
 CursorColumn=0
 TabIndex=1

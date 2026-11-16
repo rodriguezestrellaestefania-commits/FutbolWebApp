@@ -10,3 +10,4 @@ HelpPath=Help
 ProgramPath=Programs
 FileList=Data\Filelist.cfg
 Description=Proyecto web de gestión de fútbol
+ConnectionIni=Data\DfConnId.ini
