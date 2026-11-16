@@ -1,5 +1,6 @@
 ﻿Use AllWebUIServerClasses.pkg
 Use cConnection.pkg
+Use cWebMenuItemLoadView.pkg
 
 Object oApplication is a cApplication
     Object oConnection is a cConnection
@@ -88,6 +89,11 @@ Object oWebApp is a cWebApp
     
             Object oViewMenu is a cWebMenuItem
                 Set psCaption to C_$View
+
+                Object oSelecciondeLigasItem1 is a cWebMenuItemLoadView
+                    Set psCaption to "Seleccion de Ligas"
+                    Set psLoadViewOnClick to "oSelectLiga"
+                End_Object
             End_Object  
         End_Object  
         
@@ -131,6 +137,7 @@ Object oWebApp is a cWebApp
     Use SessionManager.wo
     Use LoginDialog.wo
     Use WebResourceManager.wo
+    Use SelectLiga.wo
     
 End_Object
 
